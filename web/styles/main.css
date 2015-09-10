@@ -1,29 +1,46 @@
 body {
     font-family: "Bell Gothic", Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+    background-color: #FFF;
+    border-style: solid;
+    border-color: #000000;
+    box-shadow: 5px 5px 5px 5px #000000;
     
 }
 
+html{
+    background: url("../images/bats.gif") repeat;
+}
+
 h1 {
+    margin-top: 0;
+    padding-top: 30px;
     font-size: 2.8em;
     margin-left: 15%;
-    color: orange;
-    font-style: italic;
-    text-shadow: 2px 2px #000000;
+    line-height: 60%;
     
 }
 
 h2{
     font-size: 1.2em;
     margin-left: 15%;
+    padding-bottom: 10px;
+    padding-left: 15px;
     
 }
 h3{
     font-size: 1.4em;
+    margin-bottom: 5px;
+    padding-left: 15px;
 }
 
 h4{
     
     font-size: 1.4em;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 h3::first-letter{font-size: 250%;
@@ -32,10 +49,14 @@ h3::first-letter{font-size: 250%;
 
 img{
     float: left;
+    position: relative;
+    left: 15px;
+    top: 20px; 
 }
 
 a{
     color: orange;
+    margin-bottom: 5px;
 }
 a:hover{
     color: green;
@@ -46,4 +67,22 @@ li{
 footer{
     font-size: .8em;
     text-align: center;
+    border-top-color: #000000;
+    border-top-style: solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(45deg, black, orange, white);
+}
+header{
+    height: 100%;
+    margin:0;
+    padding:0;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background: linear-gradient(45deg, white, orange, black);
+}
+p{
+    margin-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 5px;
 }
