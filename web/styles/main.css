@@ -53,14 +53,6 @@ h3::first-letter{font-size: 250%;
     left: 15px;
     top: 20px; 
 }
-
-a{
-    color: orange;
-    margin-bottom: 5px;
-}
-a:hover{
-    color: green;
-}
 li{
    margin: 0 0 5px 0;
 }
@@ -92,6 +84,8 @@ article{
     width: 160px;
     position: absolute;
     top: 150px;
+    color:black;
+    margin-top: 15px;
 }
 
 h3,h4,p,div{
@@ -111,6 +105,60 @@ div{
     margin-top: 30px;
     margin-bottom: 30px;
     position: absolute;
-    top: 475px;
+    top: 520px;
     left: 280px;
+    color: orange;
+    margin-bottom: 5px;
+}
+#catlink:hover{
+    color: green;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: block;
+    width: 160px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2em;
+    font-weight: bold;
+}
+nav a:hover{
+    color: black;
+    background: grey;
+}
+.currentLink{
+    color:orange;
+}
+body.home a.home, body.personal a.personal, body.decorations a.decorations, body.email a.email,
+body.products a.products{
+    color: orange;
+}
+
+article li{
+    border: 1px solid black;
+    border-width: 2px;
+}
+article a{
+    display: block;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px;
+    
+}
+article ul{
+    list-style-type: none;
+    margin: 20px 20px 0px 20px;
+    padding: 0;
 }
