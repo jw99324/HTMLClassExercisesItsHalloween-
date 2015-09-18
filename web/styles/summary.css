@@ -158,6 +158,67 @@ article ul{
     margin: 20px 20px 0px 20px;
     padding: 0;
 }
-body.home a.home{
+body.products a.products{
     color: orange;
 }
+figure{
+    float: right;
+    border: none;
+    width: 450px;
+    padding: 15px;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+}
+figcaption{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: 0px;
+}
+table{
+    margin: 0 10px 10px 10px auto;
+    text-algin: left;
+    font-weight: normal;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+}
+
+tr{
+    
+}
+
+td a{
+    text-decoration: underline;
+    color: black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: #F5DEB3; 
+    
+}
+.price{
+    text-align: right;
+    background-color: #F5DEB3;
+    border: 2px solid #F5DEB3;
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+}
+.price td{
+    border: 0;
+    margin: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: #F5DEB3; 
+}
+
+
+
+
+
+
+
+
